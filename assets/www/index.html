@@ -1,0 +1,71 @@
+﻿<html>
+<head>
+	<link rel="stylesheet" href="./css/style.css" />
+	<script src="./js/cordova-2.2.0.js"></script>
+	<script src="./js/jquery-1.7.1.min.js"></script>
+	<script src="./js/app.js"></script>
+	<script src="./js/OpenLayers.js"></script>
+</head>
+
+<body onload="">
+	<div style="display:block;">
+		<div class="start_window">
+			<div class="title_game_start">
+				<div id="marker_desc" style="display:none;">
+					<div id="title_marker" class="title_marker"></div>
+					<div id="msg_marker" class="msg_marker"></div>
+					<div class="button_ok" onclick="close_description()">OK</div>
+				</div>
+				<div id="marker_add_form" class="marker_add_form">
+					<div id="icons" class="icons">
+						<div id="icon_1" onclick="selectIcon('icon_1', '1.png')">
+							<img src="./markers/1.png"/>
+						</div>
+						<div id="icon_2" onclick="selectIcon('icon_2', '2.png')">
+							<img src="./markers/2.png"/>
+						</div>
+						<div id="icon_3" onclick="selectIcon('icon_3', '3.png')" >
+							<img src="./markers/3.png"/>
+						</div>
+						<div id="icon_4" style="margin-right:0px;"  onclick="selectIcon('icon_4', '4.png')">
+							<img src="./markers/4.png"/>
+						</div>
+					</div>
+					<div style="font-weight:700; padding-top:30px;">Заголовок</div>
+					<input type="text" id="title" name="title" class="title"/>
+					<div style="font-weight:700; padding-top:5px;">Комментарий</div>
+					<textarea id="msg" name="msg" class="msg"></textarea>
+					<div class="button_ok_2" onclick="ok_add()">ОК</div>
+					<div class="button_cancel" onclick="cancel_add()">ОТМЕНА</div>
+				</div>
+			</div>
+			<div id="scale_map" class="scale_map">
+				<div id="customZoomIn" style="margin-bottom:5px;">
+					<img id="btn_plus" src="./css/img/map_plus.png"/>
+				</div>
+				<div id="customZoomOut">
+					<img id="btn_minus" src="./css/img/map_minus.png"/>
+				</div>
+			</div>
+			<div id="megamap" class="map_game_start"></div>
+			<div class="control_game">
+				<div style="font-size:12px;">
+					<div id="add_marker" class="add_marker">
+						<img id="add_marker_img" align="left" src="./css/img/btn_search_marker_from_game.png"/><br/>
+						<div>ДОБАВИТЬ МАРКЕР</div>
+					</div>
+					<div id="find_itself" class="find_itself">
+						<img id="find_itself_img" align="left" src="./css/img/btn_search_user_from_game.png"/>
+						<div>НАЙТИ<br/>СЕБЯ</div>
+					</div>
+					<div id="exit" class="exit">
+						<img id="exit_img" align="left" src="./css/img/btn_exit_from_game.png"/>
+						<div>ВЫХОД</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

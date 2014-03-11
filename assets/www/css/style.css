@@ -1,0 +1,207 @@
+*
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	outline: 0;
+}
+
+body
+{
+	margin:0px;
+	padding:0px;
+	height:320px;
+}
+
+.start_window
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	float:left;
+	width:320px;
+	color:white;
+}
+
+.title_game_start
+{
+	background:#158afb;
+	color:white;
+	position:absolute;
+	width:320px;
+	z-index:4002;
+}
+
+.title_marker
+{
+	margin-left:10px;
+	margin-top:5px; 
+	font-size:18px; 
+	font-weight:700;
+}
+
+.msg_marker
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	padding:0px 5px 0px 10px;
+	text-align:justify;
+}
+
+.marker_add_form
+{
+	display:none;
+	margin-left:20px;
+}
+
+.button_ok
+{
+	margin-left:10px; 
+	margin-top:10px; 
+	margin-bottom:10px; 
+	width:120px; 
+	padding-top:10px; 
+	padding-bottom:10px; 
+	text-align:center; 
+	border:1px solid white;
+}
+
+.icons
+{
+	float:right; 
+	margin-top:5px; 
+	margin-right:10px; 
+	margin-bottom:5px;
+}
+
+.icons div
+{
+	border:1px solid white; 
+	float:left; 
+	width:35px; 
+	height:30px; 
+	padding-top:5px; 
+	text-align:center; 
+	margin-right:5px;
+}
+
+.title
+{
+	width:100%; 
+	height:40px; 
+	margin-left:-10px; 
+	font-size:22px;
+}
+
+.msg
+{
+	resize: none; 
+	width:100%; 
+	height:85px; 
+	margin-left:-10px; 
+	margin-bottom:10px; 
+	font-size:18px;
+}
+
+.button_ok_2
+{
+	float:left;
+	margin-left:-10px; 
+	margin-bottom:10px;
+	width:140px; 
+	padding-top:10px; 
+	padding-bottom:10px; 
+	text-align:center; 
+	border:1px solid white;
+}
+
+.button_cancel
+{
+	float:right; 
+	margin-right:10px; 
+	margin-bottom:10px; 
+	width:140px; 
+	padding-top:10px; 
+	padding-bottom:10px; 
+	text-align:center; 
+	border:1px solid white;
+}
+
+.scale_map
+{
+	z-index:2222; 
+	position:absolute; 
+	margin-left:10px; 
+	margin-top:10px;
+}
+
+.add_marker
+{
+	width:106px; 
+	float:left;
+}
+
+.add_marker img
+{
+	padding-left:1px;
+}
+
+.add_marker div
+{
+	float:left; 
+	width:106px; 
+	padding-left:37px; 
+	margin-top:-37px;
+}
+
+.find_itself
+{
+	width:106px; 
+	float:left; 
+	padding-left:1px;
+}
+
+.find_itself img
+{
+	padding-left:1px; 
+	padding-right:1px;
+}
+
+.find_itself div
+{
+	float:left; 
+	width:106px; 
+	padding-left:57px; 
+	margin-top:-37px;
+}
+
+.exit
+{
+	width:106px; 
+	float:right;
+}
+
+.exit div
+{
+	float:right; 
+	margin-top:-29px; 
+	padding-right:10px;
+}
+
+.map_game_start
+{
+	width:100%;
+	height:463px;
+	background:white;
+	z-index:1000;
+}
+
+.control_game
+{
+	width:100%;
+	height:45px;
+	background:white;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+
+.control_game img
+{
+	margin:0px;
+	padding:0px;
+}
